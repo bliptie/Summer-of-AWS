@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+ <body>
+     <form>
+     </form>
 <?php
     require 'vendor/autoload.php';
     use Aws\DynamoDb\DynamoDbClient;
@@ -19,3 +27,5 @@
     
     echo '<p>' . $feedback['message']['S'] . '</p>';
 ?>
+    </body>
+</html>
