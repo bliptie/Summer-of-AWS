@@ -4,7 +4,10 @@
         <title></title>
     </head>
  <body>
-     <form>
+     <form action = "writeDatabase.php" method = "post">
+         <input type - "text" input - "message" placeholder - "Feedback" name - "message">
+         <br>
+         <button type = "submit" name = "submit">Submit</button>
      </form>
 <?php
     require 'vendor/autoload.php';
