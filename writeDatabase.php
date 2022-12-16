@@ -17,5 +17,5 @@
         ))
       ));
 
-   header('Location: createDatabase.php');
+   header('Location: index.php');
 ?>
